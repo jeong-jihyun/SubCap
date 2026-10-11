@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.subcap'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.subcap"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // 폰 안에서 한글 자막 글자를 읽는 구글 ML Kit (인터넷 없이 동작)
+    implementation 'com.google.mlkit:text-recognition-korean:16.0.1'
+}

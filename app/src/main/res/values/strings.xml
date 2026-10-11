@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">자막기록</string>
+    <string name="title">자막 기록</string>
+    <string name="guide">① 시작을 누르고 → ② EBS 영상을 1배속으로 재생하세요. 자막이 자동으로 기록돼요. 배속을 올리면 자막이 빠질 수 있어요. 새 자막이 30초 동안 없으면 자동으로 끝나고 알림이 와요.</string>
+    <string name="label_region">자막 위치: 화면 위에서 몇 % ~ 몇 %</string>
+    <string name="label_interval">확인 간격(초)</string>
+    <string name="btn_start">시작</string>
+    <string name="btn_stop">중지</string>
+    <string name="btn_share">Claude로 보내기</string>
+    <string name="btn_clear">기록 지우기</string>
+</resources>
